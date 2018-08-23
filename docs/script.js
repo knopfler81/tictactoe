@@ -30,12 +30,10 @@ myKases.forEach(function(kase){
 	kase.addEventListener('click', play)	
 		function play(){
 			playerTurn();
-			if(win() === true){
-				console.log("ploc")
-			}
-			else{
+			if(win() != true){
+				//
 				computerTurn()
-			} 
+			}
 		}
 		
 	function playerTurn(){
