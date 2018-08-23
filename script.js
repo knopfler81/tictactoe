@@ -43,7 +43,7 @@ Kases.forEach(function(kase){
 		}
 	}
 	function win(){
-		if((kase_1.innerHTML && kase_2.innerHTML && kase_3.innerHTML) === player){
+		if((kase_1.innerHTML.trim() && kase_2.innerHTML.trim() && kase_3.innerHTML.trim()) === player){
 			setTimeout(function(){
 				kase_1.style.backgroundColor = "pink"
 				kase_2.style.backgroundColor = "pink"
@@ -69,7 +69,7 @@ Kases.forEach(function(kase){
 			}, 2500);
 
 		}
-		else if((kase_4.innerHTML && kase_5.innerHTML && kase_6.innerHTML) === player){
+		else if((kase_4.innerHTML.trim() && kase_5.innerHTML.trim() && kase_6.innerHTML.trim()) === player){
 			setTimeout(function(){
 				kase_4.style.backgroundColor = "pink"
 				kase_5.style.backgroundColor = "pink"
@@ -94,7 +94,7 @@ Kases.forEach(function(kase){
 				location.reload()
 			}, 2500);
 		}
-		else if((kase_7.innerHTML && kase_8.innerHTML && kase_9.innerHTML) === player){
+		else if((kase_7.innerHTML.trim() && kase_8.innerHTML.trim() && kase_9.innerHTML.trim()) === player){
 			setTimeout(function(){
 				kase_7.style.backgroundColor = "pink"
 				kase_8.style.backgroundColor = "pink"
@@ -120,7 +120,7 @@ Kases.forEach(function(kase){
 			}, 2500);
 
 		}
-		else if((kase_1.innerHTML && kase_4.innerHTML && kase_7.innerHTML) === player){
+		else if((kase_1.innerHTML.trim() && kase_4.innerHTML.trim() && kase_7.innerHTML.trim()) === player){
 			setTimeout(function(){
 				kase_1.style.backgroundColor = "pink"
 				kase_4.style.backgroundColor = "pink"
@@ -145,7 +145,7 @@ Kases.forEach(function(kase){
 				location.reload()
 			}, 2500);
 		}
-		else if((kase_2.innerHTML && kase_5.innerHTML && kase_8.innerHTML) === player){
+		else if((kase_2.innerHTML.trim() && kase_5.innerHTML.trim() && kase_8.innerHTML.trim()) === player){
 			setTimeout(function(){
 				kase_2.style.backgroundColor = "pink"
 				kase_5.style.backgroundColor = "pink"
@@ -170,7 +170,7 @@ Kases.forEach(function(kase){
 				location.reload()
 			}, 2500);
 		}
-		else if((kase_3.innerHTML && kase_6.innerHTML && kase_9.innerHTML) === player){
+		else if((kase_3.innerHTML.trim() && kase_6.innerHTML.trim() && kase_9.innerHTML.trim()) === player){
 			setTimeout(function(){
 				kase_3.style.backgroundColor = "pink"
 				kase_6.style.backgroundColor = "pink"
@@ -195,7 +195,7 @@ Kases.forEach(function(kase){
 				location.reload()
 			}, 2500);
 		}
-		else if((kase_1.innerHTML && kase_5.innerHTML && kase_9.innerHTML) === player){
+		else if((kase_1.innerHTML.trim() && kase_5.innerHTML.trim() && kase_9.innerHTML.trim()) === player){
 			setTimeout(function(){
 				kase_1.style.backgroundColor = "pink"
 				kase_5.style.backgroundColor = "pink"
@@ -220,7 +220,7 @@ Kases.forEach(function(kase){
 				location.reload()
 			}, 2500);
 		}
-		else if((kase_3.innerHTML && kase_5.innerHTML && kase_7.innerHTML) === player){
+		else if((kase_3.innerHTML.trim() && kase_5.innerHTML.trim() && kase_7.innerHTML.trim()) === player){
 			setTimeout(function(){
 				kase_3.style.backgroundColor = "pink"
 				kase_5.style.backgroundColor = "pink"
@@ -245,7 +245,7 @@ Kases.forEach(function(kase){
 				location.reload()
 			}, 2500);
 		}
-		else if((kase_1.innerHTML && kase_2.innerHTML && kase_3.innerHTML) === computer){
+		else if((kase_1.innerHTML.trim() && kase_2.innerHTML.trim() && kase_3.innerHTML.trim()) === computer){
 			setTimeout(function(){
 				kase_1.style.backgroundColor = "blue"
 				kase_2.style.backgroundColor = "blue"
@@ -271,7 +271,7 @@ Kases.forEach(function(kase){
 			}, 2500);
 
 		}
-		else if((kase_4.innerHTML && kase_5.innerHTML && kase_6.innerHTML) === computer){
+		else if((kase_4.innerHTML.trim() && kase_5.innerHTML.trim() && kase_6.innerHTML.trim()) === computer){
 			setTimeout(function(){
 				kase_4.style.backgroundColor = "blue"
 				kase_5.style.backgroundColor = "blue"
@@ -296,7 +296,7 @@ Kases.forEach(function(kase){
 				location.reload()
 			}, 2500);
 		}
-		else if((kase_7.innerHTML && kase_8.innerHTML && kase_9.innerHTML) === computer){
+		else if((kase_7.innerHTML.trim() && kase_8.innerHTML.trim() && kase_9.innerHTML.trim()) === computer){
 			setTimeout(function(){
 				kase_7.style.backgroundColor = "blue"
 				kase_8.style.backgroundColor = "blue"
@@ -322,7 +322,7 @@ Kases.forEach(function(kase){
 			}, 2500);
 
 		}
-		else if((kase_1.innerHTML && kase_4.innerHTML && kase_7.innerHTML) === computer){
+		else if((kase_1.innerHTML.trim() && kase_4.innerHTML.trim() && kase_7.innerHTML.trim()) === computer){
 			setTimeout(function(){
 				kase_1.style.backgroundColor = "blue"
 				kase_4.style.backgroundColor = "blue"
@@ -347,7 +347,7 @@ Kases.forEach(function(kase){
 				location.reload()
 			}, 2500);
 		}
-		else if((kase_2.innerHTML && kase_5.innerHTML && kase_8.innerHTML) === computer){
+		else if((kase_2.innerHTML.trim() && kase_5.innerHTML.trim() && kase_8.innerHTML.trim()) === computer){
 			setTimeout(function(){
 				kase_2.style.backgroundColor = "blue"
 				kase_5.style.backgroundColor = "blue"
@@ -372,7 +372,7 @@ Kases.forEach(function(kase){
 				location.reload()
 			}, 2500);
 		}
-		else if((kase_3.innerHTML && kase_6.innerHTML && kase_9.innerHTML) === computer){
+		else if((kase_3.innerHTML.trim() && kase_6.innerHTML.trim() && kase_9.innerHTML.trim()) === computer){
 			setTimeout(function(){
 				kase_3.style.backgroundColor = "blue"
 				kase_6.style.backgroundColor = "blue"
@@ -397,7 +397,7 @@ Kases.forEach(function(kase){
 				location.reload()
 			}, 2500);
 		}
-		else if((kase_1.innerHTML && kase_5.innerHTML && kase_9.innerHTML) === computer){
+		else if((kase_1.innerHTML.trim() && kase_5.innerHTML.trim() && kase_9.innerHTML.trim()) === computer){
 			setTimeout(function(){
 				kase_1.style.backgroundColor = "blue"
 				kase_5.style.backgroundColor = "blue"
@@ -422,7 +422,7 @@ Kases.forEach(function(kase){
 				location.reload()
 			}, 2500);
 		}
-		else if((kase_3.innerHTML && kase_5.innerHTML && kase_7.innerHTML) === computer){
+		else if((kase_3.innerHTML.trim() && kase_5.innerHTML.trim() && kase_7.innerHTML.trim()) === computer){
 			setTimeout(function(){
 				kase_3.style.backgroundColor = "blue"
 				kase_5.style.backgroundColor = "blue"
